@@ -5,7 +5,7 @@ import {
   BadgeDefinition,
   LeaderboardEntry,
   LeaderboardTimeWindow,
-} from '@/types/database';
+} from '../types/database';
 
 export const api = {
   auth: {

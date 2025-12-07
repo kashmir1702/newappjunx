@@ -9,8 +9,8 @@ import {
   Alert,
 } from 'react-native';
 import { useRouter } from 'expo-router';
-import { useAuth } from '@/contexts/AuthContext';
-import { api } from '@/lib/api';
+import { useAuth } from '../../contexts/AuthContext';
+import { api } from '../../lib/api';
 import {
   User,
   Shield,

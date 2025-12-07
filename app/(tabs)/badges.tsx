@@ -7,9 +7,9 @@ import {
   ActivityIndicator,
   RefreshControl,
 } from 'react-native';
-import { useAuth } from '@/contexts/AuthContext';
-import { api } from '@/lib/api';
-import { UserBadge } from '@/types/database';
+import { useAuth } from '../../contexts/AuthContext';
+import { api } from '../../lib/api';
+import { UserBadge } from '../../types/database';
 import { Award, Calendar } from 'lucide-react-native';
 
 export default function BadgesScreen() {

@@ -8,9 +8,9 @@ import {
   ActivityIndicator,
   RefreshControl,
 } from 'react-native';
-import { useAuth } from '@/contexts/AuthContext';
-import { api } from '@/lib/api';
-import { LeaderboardEntry, LeaderboardTimeWindow } from '@/types/database';
+import { useAuth } from '../../contexts/AuthContext';
+import { api } from '../../lib/api';
+import { LeaderboardEntry, LeaderboardTimeWindow } from '../../types/database';
 import { Trophy, Medal, Award, Crown } from 'lucide-react-native';
 
 const TIME_WINDOWS: { label: string; value: LeaderboardTimeWindow }[] = [
